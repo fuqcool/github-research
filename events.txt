@@ -1,0 +1,14 @@
+CommitCommentEvent
+CreateEvent
+DeleteEvent
+ForkEvent
+GollumEvent
+IssueCommentEvent
+IssuesEvent
+MemberEvent
+PublicEvent
+PullRequestEvent
+PullRequestReviewCommentEvent
+PushEvent
+ReleaseEvent
+WatchEvent
