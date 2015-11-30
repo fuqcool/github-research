@@ -56,12 +56,6 @@ public class Event {
     }
 
     public int getScore() {
-        if (repo.equals("torvalds/linux")) {
-            System.out.println("--------------");
-            System.out.println(type);
-            System.out.println("--------------");
-        }
-
         Integer score = scoreMap.get(type);
 
         if (score == null) {
