@@ -12,6 +12,7 @@ public class Event {
 
     static {
         dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+
         scoreMap = new HashMap<String, Integer>();
         scoreMap.put("PushEvent", 50);
         scoreMap.put("CreateEvent", 50);
