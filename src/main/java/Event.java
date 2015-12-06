@@ -16,6 +16,7 @@ public class Event {
         scoreMap = new HashMap<String, Integer>();
         scoreMap.put("PushEvent", 50);
         scoreMap.put("CreateEvent", 50);
+        scoreMap.put("DeleteEvent", 0);
         scoreMap.put("WatchEvent", 10);
         scoreMap.put("ReleaseEvent", 50);
         scoreMap.put("PullRequestEvent", 50);
@@ -26,6 +27,7 @@ public class Event {
         scoreMap.put("CommitCommentEvent", 10);
         scoreMap.put("PullRequestReviewCommentEvent", 10);
         scoreMap.put("ForkEvent", 50);
+        scoreMap.put("MemberEvent", 10);
     }
 
     private String type;
